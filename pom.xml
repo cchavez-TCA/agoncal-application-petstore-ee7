@@ -150,47 +150,7 @@
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
-    <!-- TEST -->
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>nl.jqno.equalsverifier</groupId>
-      <artifactId>equalsverifier</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.arquillian.universe</groupId>
-      <artifactId>arquillian-junit</artifactId>
-      <scope>test</scope>
-      <type>pom</type>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.shrinkwrap</groupId>
-      <artifactId>shrinkwrap-api</artifactId>
-      <version>${version.shrinkwrap}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.arquillian.extension</groupId>
-      <artifactId>arquillian-rest-client-api</artifactId>
-      <version>${version.arquillian.rest}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.arquillian.extension</groupId>
-      <artifactId>arquillian-rest-client-impl-3x</artifactId>
-      <version>${version.arquillian.rest}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.resteasy</groupId>
-      <artifactId>resteasy-jackson-provider</artifactId>
-      <version>${version.resteasy}</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
-
   <build>
     <finalName>applicationPetstore</finalName>
     <plugins>
